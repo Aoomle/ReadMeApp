@@ -13,6 +13,8 @@
 		478E9FA925EE558B0016887E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478E9FA825EE558B0016887E /* Assets.xcassets */; };
 		478E9FAC25EE558B0016887E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478E9FAB25EE558B0016887E /* Preview Assets.xcassets */; };
 		478E9FAF25EE558B0016887E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478E9FAD25EE558B0016887E /* LaunchScreen.storyboard */; };
+		478E9FBD25EE582C0016887E /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E9FBC25EE582C0016887E /* Book.swift */; };
+		478E9FC025EE59410016887E /* BookVIews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E9FBF25EE59400016887E /* BookVIews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		478E9FAB25EE558B0016887E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		478E9FAE25EE558B0016887E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		478E9FB025EE558B0016887E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478E9FBC25EE582C0016887E /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		478E9FBF25EE59400016887E /* BookVIews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookVIews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +60,9 @@
 		478E9FA125EE558A0016887E /* ReadMe */ = {
 			isa = PBXGroup;
 			children = (
-				478E9FA225EE558A0016887E /* AppDelegate.swift */,
-				478E9FA425EE558A0016887E /* SceneDelegate.swift */,
-				478E9FA625EE558A0016887E /* ContentView.swift */,
-				478E9FA825EE558B0016887E /* Assets.xcassets */,
-				478E9FAD25EE558B0016887E /* LaunchScreen.storyboard */,
-				478E9FB025EE558B0016887E /* Info.plist */,
+				478E9FB725EE57A50016887E /* App */,
+				478E9FB825EE57BD0016887E /* Views */,
+				478E9FBA25EE57C70016887E /* Models */,
 				478E9FAA25EE558B0016887E /* Preview Content */,
 			);
 			path = ReadMe;
@@ -73,6 +74,35 @@
 				478E9FAB25EE558B0016887E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		478E9FB725EE57A50016887E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				478E9FA225EE558A0016887E /* AppDelegate.swift */,
+				478E9FA425EE558A0016887E /* SceneDelegate.swift */,
+				478E9FA825EE558B0016887E /* Assets.xcassets */,
+				478E9FAD25EE558B0016887E /* LaunchScreen.storyboard */,
+				478E9FB025EE558B0016887E /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		478E9FB825EE57BD0016887E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				478E9FA625EE558A0016887E /* ContentView.swift */,
+				478E9FBF25EE59400016887E /* BookVIews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		478E9FBA25EE57C70016887E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				478E9FBC25EE582C0016887E /* Book.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +175,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				478E9FC025EE59410016887E /* BookVIews.swift in Sources */,
+				478E9FBD25EE582C0016887E /* Book.swift in Sources */,
 				478E9FA325EE558A0016887E /* AppDelegate.swift in Sources */,
 				478E9FA525EE558A0016887E /* SceneDelegate.swift in Sources */,
 				478E9FA725EE558A0016887E /* ContentView.swift in Sources */,
@@ -290,7 +322,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ReadMe/Preview Content\"";
 				DEVELOPMENT_TEAM = Q5Y5DR73B2;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ReadMe/Info.plist;
+				INFOPLIST_FILE = ReadMe/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +343,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ReadMe/Preview Content\"";
 				DEVELOPMENT_TEAM = Q5Y5DR73B2;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ReadMe/Info.plist;
+				INFOPLIST_FILE = ReadMe/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
