@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		473A784425EE7BD300827C6C /* BookRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A784325EE7BD300827C6C /* BookRow.swift */; };
 		478E9FA325EE558A0016887E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E9FA225EE558A0016887E /* AppDelegate.swift */; };
 		478E9FA525EE558A0016887E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E9FA425EE558A0016887E /* SceneDelegate.swift */; };
 		478E9FA725EE558A0016887E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E9FA625EE558A0016887E /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		473A784325EE7BD300827C6C /* BookRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRow.swift; sourceTree = "<group>"; };
 		478E9F9F25EE558A0016887E /* ReadMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		478E9FA225EE558A0016887E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		478E9FA425EE558A0016887E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				478E9FA625EE558A0016887E /* ContentView.swift */,
+				473A784325EE7BD300827C6C /* BookRow.swift */,
 				478E9FBF25EE59400016887E /* BookVIews.swift */,
 			);
 			path = Views;
@@ -180,6 +183,7 @@
 				478E9FA325EE558A0016887E /* AppDelegate.swift in Sources */,
 				478E9FA525EE558A0016887E /* SceneDelegate.swift in Sources */,
 				478E9FA725EE558A0016887E /* ContentView.swift in Sources */,
+				473A784425EE7BD300827C6C /* BookRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
