@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		473A784425EE7BD300827C6C /* BookRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A784325EE7BD300827C6C /* BookRow.swift */; };
+		473A784725EE836900827C6C /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A784625EE836900827C6C /* Library.swift */; };
 		478E9FA325EE558A0016887E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E9FA225EE558A0016887E /* AppDelegate.swift */; };
 		478E9FA525EE558A0016887E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E9FA425EE558A0016887E /* SceneDelegate.swift */; };
 		478E9FA725EE558A0016887E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E9FA625EE558A0016887E /* ContentView.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		473A784325EE7BD300827C6C /* BookRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRow.swift; sourceTree = "<group>"; };
+		473A784625EE836900827C6C /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 		478E9F9F25EE558A0016887E /* ReadMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		478E9FA225EE558A0016887E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		478E9FA425EE558A0016887E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 		478E9FBA25EE57C70016887E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				473A784625EE836900827C6C /* Library.swift */,
 				478E9FBC25EE582C0016887E /* Book.swift */,
 			);
 			name = Models;
@@ -179,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				478E9FC025EE59410016887E /* BookVIews.swift in Sources */,
+				473A784725EE836900827C6C /* Library.swift in Sources */,
 				478E9FBD25EE582C0016887E /* Book.swift in Sources */,
 				478E9FA325EE558A0016887E /* AppDelegate.swift in Sources */,
 				478E9FA525EE558A0016887E /* SceneDelegate.swift in Sources */,

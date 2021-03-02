@@ -9,7 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-     Text("")
+      List(Library().sortedBooks, id: \.title) { book in
+        BookRow(book: book)
+      }
     }
 }
 
