@@ -20,12 +20,13 @@ struct BookRow: View {
           .font(.title3)
           .foregroundColor(.secondary)
       }
+      .lineLimit(1)
     }
   }
 }
 
 struct BookRow_Previews: PreviewProvider {
   static var previews: some View {
-    BookRow(book: Book(title: "Abdulmalik", author: "Author"))
+    BookRow(book: Book(title: "", author: ""))
   }
 }
